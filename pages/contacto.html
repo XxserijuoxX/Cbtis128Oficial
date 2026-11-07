@@ -27,7 +27,7 @@
             </div>
         </div>
         <!-- PORTADA PRINCIPAL -->
-        <<section class="header">
+        <section class="header">
             <div class="header__contenedor__top">
                 <div class="header__contenedor__logo">
             <img src="../assets/images/LogoCBTIS.svg" alt="" class="header__logo">
@@ -45,18 +45,30 @@
                     </ul>
                 </nav>
             </div>
-         
+            <a class="boton boton__facebook" target="_blank"  href="https://www.facebook.com/Casa-de-los-Jaguares-CBTIS-128-101239285643821/">
+                <i class='bx bxl-facebook header__icono'></i>
+            </a>
             <div class="header__contenedor__informacion">
                 <div class="header__contenedor__texto">
                     <p class="header__frase">"Alcancemos el mañana con nuestra propia tecnología"</p>
-                    <p class="header__informacion">Nuestro compromiso es seguir trabajando con el apoyo de toda la comunidad que integra el CBTIS 128 para lograr formar técnicos profesionales capaces de destacar en el ambito laboral.</p>
                     <div class="header__contenedor__botones">
                         <a href="#main" class="boton boton__blanco">Contacto</a>
                     </div>
                 </div>
                 <div class="contenedor__logos__dgeti-sems">
-                    <img src="../assets/images/logo-dgeti.png" alt="" class="header__logos__dgeti-sems">
-                    <img src="../assets/images/logo-sep.png" alt="" class="header__logos__dgeti-sems">           
+                    <div>
+                        <a target="_blank" href="http://www.dgeti.sep.gob.mx/">
+                            <img src="../assets/images/logo-dgeti.png" alt="" title="DGETI" class="header__logos__dgeti-sems">
+                        </a>
+                    </div>
+                    <div class="contenedor__logos__dgeti-sep">
+                        <a target="_blank" href="https://www.gob.mx/sep">
+                            <img src="../assets/images/logo-sep.png" alt="" title="SEP" class="header__logos__dgeti-sems">
+                        </a>
+                        <a target="_blank" href="http://educacionmediasuperior.sep.gob.mx/">
+                            <img src="../assets/images/logo-sems.png" alt="" title="SEMS" class="header__logos__dgeti-sems"> 
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>
@@ -76,7 +88,7 @@
                 <li class="menu__enlace-oculto"><a class="menu__enlace elemento__enlace" href="contacto.html">Contacto</a></li>
                 <!-- start menu desplegable -->
                 <li class="dropdown menu__oculto">
-                    <button class="boton menu__boton">Ver más</button>
+                    <button tabindex="0"  onclick="" class="boton menu__boton">Ver más</button>
                     <div class="dropmenu">
                         <a class="menu__enlace elemento__enlace" href="transparencia.html">Transparencia</a>
                         <a class="menu__enlace elemento__enlace" href="concursos.html">Concursos</a>
@@ -84,7 +96,7 @@
                     </div>
                 </li>
                 <li class="dropdown">
-                    <button class="boton menu__boton ">Horarios</button>
+                    <button tabindex="0" onclick=""  class="boton menu__boton">Horarios</button>
                     <div class="dropmenu">
                         <a href="horarios1-2.html" class="menu__enlace elemento__enlace">2do Semestre</a>
                         <a href="horarios3-4.html" class="menu__enlace elemento__enlace">4to Semestre</a>
@@ -197,7 +209,7 @@
             </div>
             <!-- FORMULARIO CONTACTO -->
             <h2 class="contacto__titulos">Comentarios</h2>
-            <form class= "contacto__formulario" action=""  method="post" >
+            <form class= "contacto__formulario" action="mailto:informacion@cbtis128.edu.mx"  method="post" >
                 <input class="formulario__campos" type="text" name="Nombre" placeholder="Ingrese su nombre" required>
                 <input class="formulario__campos" type="email" name="Correo" placeholder="Ingrese su correo" required>
                 <input class="formulario__campos" type="text" name="Telefono" placeholder="Ingrese su tel&eacute;fono" required>
@@ -251,16 +263,37 @@
                     </li>
                     <li class="footer__contacto">
                         <span><i class='bx bxl-gmail contacto__icon'></i></span>
-                        <a class="footer__enlaces contacto__enlaces" href="mailto:comite-escolar.128@gmail.com">comite-escolar.128@gmail.com</a>
+                        <a class="footer__enlaces contacto__enlaces" href="mailto:informacion@cbtis128.edu.mx">informacion@cbtis128.edu.mx</a>
                     </li>
                 </ul>
+            </section>
+            <section class="footer__seccion">
+                <h1 class="footer__titulos">Agradecimientos</h1>
+                <p class="footer__parrafo">
+                    M.E.E Leticia Meza Díaz
+                </p>
+                <p class="footer__parrafo">
+                    Pablo López Edgar
+                </p>
+                <p class="footer__parrafo">
+                    Casas Caldera Marcos
+                </p>
+                <p class="footer__parrafo">
+                    Melchor Alfaro Cesar
+                </p>
+                <p class="footer__parrafo">
+                    Alvarado Orta Eibram Alexis
+                </p>
+                <p class="footer__parrafo">
+                    Urbina Edwyn Uriel
+                </p>
             </section>
         </div>
         <div class="footer__contenedor__banner">
             <img class="footer__banner" src="../assets/images/img-footer.png" alt="">
         </div>
         <div class="seccion__copyright">
-            <p>Copyright © 2021 CBTIS 128. All Right Reserved</p>
+            <p>Copyright © 2022 CBTIS 128. All Right Reserved</p>
         </div>
     </footer>
     <script src="../scripts/scripts.js"></script>
